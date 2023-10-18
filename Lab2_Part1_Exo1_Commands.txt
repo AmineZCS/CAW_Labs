@@ -1,0 +1,14 @@
+ 1519  mkdir learn_git
+ 1520  cd learn_git/
+ 1521  touch three.txt
+ 1522  git init
+ 1523  git add three.txt 
+ 1524  git commit -m "three.txt added"
+ 1525  git log
+ 1526  touch four.txt
+ 1527  git add four.txt 
+ 1528  git commit -m "added four.txt"
+ 1529  rm three.txt 
+ 1530  git add three.txt 
+ 1531  git commit -m "delete three.txt"
+ 1532  git log
