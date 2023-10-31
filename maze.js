@@ -1,5 +1,6 @@
 // Note: We solved all the 9 exercises in this file.
 
+
 document.addEventListener("DOMContentLoaded", function () {
   var walls = document.querySelectorAll(".boundary");
   var end = document.getElementById("end");
