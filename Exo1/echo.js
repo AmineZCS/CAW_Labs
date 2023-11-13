@@ -1,6 +1,6 @@
 // exf function
 function exf(s, n) {
-    if(n <= 0 || n == NaN) {
+    if(n <= 0 || n == NaN || !Number.isInteger(n)) {
         console.log("Error: n must be a positive integer");
         return;
     }
@@ -9,5 +9,4 @@ function exf(s, n) {
     }
 }
 
-exf("echo", 5) ;
-exf("JS from server", 10) ;
+exports.exf = exf;
